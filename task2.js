@@ -1,18 +1,18 @@
-const mtk = 80
-const bahasaIndonesia = 90
-const bahasaInggris = 89
-const ipa = 69
+const mtk = 65
+const bahasaIndonesia = 65
+const bahasaInggris = 65
+const ipa = 65
 const rataRata = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4
 let Grade;
-if (rataRata >= 90 && rataRata <= 100){
+if (rataRata >= 90){
     Grade = "A";
-}else if (rataRata >=80 && rataRata <= 89){
+}else if (rataRata >=80){
     Grade = "B"
-}else if (rataRata <=70 && rataRata <= 79){
+}else if (rataRata >=70){
     Grade = "C"
-}else if (rataRata <= 60 && rataRata <= 69){
+}else if (rataRata >= 60){
     Grade = "D"
-}else if (rataRata <= 0 && rataRata <= 59){
+}else if (rataRata >= 0){
     Grade = "E"
 }else {
     Grade = "Invalid"
