@@ -13,15 +13,11 @@ let data = {
     phone: "1-770-736-8031 x56442",
     website: "hildegard.org",
 }
-let newData = {
-    ...data,
-    name: "Rizka",
-    email: "zahrinarizka@gmail.com",
-    hobby: "sleep"
-}
-
+//a
+const newData = {...data, name: "Rizka", email: "zahrinarizka@gmmail.com", hobby: "sleep"}
 console.log(newData)
 
+//b
 const {address} = data
 const {street, city} = address
 console.log(street + ", " + city)
